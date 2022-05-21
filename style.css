@@ -44,7 +44,6 @@
      margin: 0.5rem;
      cursor: pointer;
      transform: scale(0.95);
-
      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.31);
      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.31);
  }
@@ -71,18 +70,61 @@
 
  .card.bg-danger {
      border: none;
-     background-color: rgba(128, 128, 128, 0.685) !important;
+     background-color: rgba(68, 62, 62, 0.726) !important;
  }
 
  .card-footer.bg-danger {
      border-top: 1px solid #0b1ae7;
-     background-color: rgba(128, 128, 128, 0.733)  !important;
+     background-color: rgba(128, 128, 128, 0.733) !important;
  }
 
  .card-footer.bg-danger h7 {
      color: white !important;
  }
 
+.card1 {
+    position: relative;
+    width: 30rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    transform: scale(0.95);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.31);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.31);
+}
+
+.card1:hover {
+    transform: scale(1);
+
+    -webkit-box-shadow: 0 6px 9px -3px #828282;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.31);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.31);
+
+
+    -webkit-transition: all 200ms ease-out;
+    -moz-animation: all 200ms ease-out;
+    -ms-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    -transition: all 200ms ease-out;
+}
+
+.card1-img-top {
+    height: 16vw;
+    object-fit: cover;
+}
+
+.card1.bg-danger {
+    border: none;
+    background-color: rgba(68, 62, 62, 0.726) !important;
+}
+
+.card1-footer.bg-danger {
+    border-top: 1px solid #0b1ae7;
+    background-color: rgba(128, 128, 128, 0.733) !important;
+}
+
+.card1-footer.bg-danger h7 {
+    color: white !important;
+}
  #seccion1 .container {
      width: 67rem;
      padding: 1rem;
@@ -209,7 +251,8 @@
 
  .container h1,
  h3,
- h5, span.text-white {
+ h5,
+ span.text-white {
      border: 0px solid blue;
      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 
@@ -241,7 +284,7 @@
      bottom: -100px;
  }
 
- #logo{
+ #logo {
      position: relative;
      width: 2.5rem;
      height: 2.5rem;
